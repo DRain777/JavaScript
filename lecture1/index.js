@@ -31,7 +31,7 @@ console.log(b);
 // console.log(a + b)
 
 
-const ab = 'Hello';
-const cb = 'World';
-console.log(ab + ' ' + cb + '!');
+// const ab = 'Hello';
+// const cb = 'World';
+// console.log(ab + ' ' + cb + '!');
 
