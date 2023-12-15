@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Image</title>
+</head>
+
+<body>
+
+    <!-- The image will be displayed here -->
+    <!-- Изображение будет отображаться здесь -->
+    <img id="userImage" alt="User Image">
+
+    <script>
+        // Function to fetch and display the image
+        // Функция для получения и отображения изображения
+        async function displayImage() {
+            // const imageUrl = "https://reqres.in/img/faces/6-image.jpg";
+             const imageUrl = 
+                "https://reqres.in/img/faces/1-image.jpg";
+
+            try {
+                const response = await fetch(imageUrl);
+
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const imageUrlObject = URL.createObjectURL(blob);
+
+                    // Set the image source
+                    // Устанавливаем источник изображения
+                    document.getElementById("userImage").src = imageUrlObject;
+                } else {
+                    console.error('Failed to fetch image');
+                }
+            } catch (error) {
+                console.error(error.message);
+            }
+        }
+
+        // Call the function to display the image
+        // Вызов функции для отображения изображения
+        displayImage();
+    </script>
+
+</body>
+
+</html>

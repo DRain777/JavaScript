@@ -6,20 +6,42 @@
 // быть отклонен с соответствующим сообщением об ошибке.
 // Работа должна быть выполнена с API: https://reqres.in/
 
-async function getUserData(url) {
+async function getUserData(userId) {
   try {
-    const response = fetch(url);
-    const data = [];
-    
+    const response = await fetch(`https://reqres.in/api/users/${userId}`);
+
     if (response.ok) {
-      const data = await response.json(); 
-      return data;
+      const userData = await response.json();
+      return userData.data; // Возвращаем объект данных о пользователе
+    } else {
+      const errorData = await response.json();
+      throw new Error(errorData.error || "Failed to fetch user data");
     }
   } catch (error) {
-    console.log(error);
+    console.error(error.message);
+    throw error; // Прокидываем ошибку дальше
   }
 }
 
-// console.log(getUserData(" https://reqres.in/"));
+// Пример использования функции
+const userId = 2; // Замените на нужный ID пользователя
+getUserData(userId)
+  .then((userData) => {
+    console.log("User Data:", userData);
+  })
+  .catch((error) => {
+    console.error("Error:", error.message);
+  });
 
-console.log(getUserData(" https://jsonplaceholder.typicode.com/users"));
+
+
+
+
+
+
+
+
+
+
+
+
