@@ -1,8 +1,8 @@
 # My Image Carousel
 
 <div id="imageCarousel" style="max-width: 250px; margin: auto; overflow: hidden;">
-  <img src="https://reqres.in/img/faces/6-image.jpg" alt="Image 1" style="width: 50%;">
-  <img src="https://reqres.in/img/faces/7-image.jpg" alt="Image 2" style="width: 50%;">
+  <img src="https://reqres.in/img/faces/6-image.jpg" alt="Image 1" style="width: 50%;"> clark
+  <img src="https://reqres.in/img/faces/7-image.jpg" alt="Image 2" style="width: 50%;"> Ban
   <img src="https://reqres.in/img/faces/8-image.jpg" alt="Image 3" style="width: 50%;">
 </div>
 
