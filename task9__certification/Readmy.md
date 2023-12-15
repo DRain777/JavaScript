@@ -4,7 +4,7 @@
 
  <div id=" https://reqres.in/ " style="max-width: 200px; margin: auto; overflow: hidden;">
 
-  <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id1.jpg" alt="id 1" style="width: 50%;"> email "george.bluth@reqres.in" first_name  "George"  last_name  "Bluth"  id=1
+  <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id1.jpg" alt="id 1" style="width: 50%;"> first_name  "George"  last_name  "Bluth"  id=1
   <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id1.jpg" alt="id 1" style="width: 50%;">  first_name  "George" last_nam "Bluth" id=1
   <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id2.jpg" alt="id 2" style="width: 50%;">
   first_name "Janet"   last_name  "Weaver" id 2
