@@ -1,3 +1,5 @@
+![](https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/1.webp)
+
 <details><summary> Стало интересно какие данные еще есть в  https://reqres.in/ 
 вот что нашел  
 </summary>
