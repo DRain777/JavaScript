@@ -10,11 +10,7 @@
   <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id1.jpg" alt="id 1" style="width: 50%;">  
    first_name  "George" last_nam "Bluth" id=1
   
-  <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id2.jpg" alt="id 2" style="width: 50%;">
-  first_name "Janet"   last_name  "Weaver" id 2
-  
-  <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id3.jpg" alt="id 3" style="width: 50%;">
-  first_name "Emma"   last_name  "Wong" id 3
+
   
   <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id4.jpg" alt="id 4" style="width: 50%;">
   first_name "Eve" last_name "Holt" id 4
