@@ -7,7 +7,8 @@
 </summary>
 
  <div id=" https://reqres.in/ " style="max-width: 200px; margin: auto; overflow: hidden;">
-  <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id1.jpg" alt="id 1" style="width: 50%;">  first_name  "George" last_nam "Bluth" id=1
+  <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id1.jpg" alt="id 1" style="width: 50%;">  
+   first_name  "George" last_nam "Bluth" id=1
   
   <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/id2.jpg" alt="id 2" style="width: 50%;">
   first_name "Janet"   last_name  "Weaver" id 2
@@ -20,7 +21,7 @@
   
   <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/Charles_Moris_id5.jpg" alt="id 5" style="width: 50%;"> first_name "Charles" last_name "Morris" id 5
   
-  <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/Tracey_Ramos_id6.jpg" alt="id 6" style="width: 50%;">   first_name "Tracey" last_name "Ramos" id 6
+  <img src="https://github.com/DRain777/JavaScript/blob/algoritm/task9__certification/img/Tracey_Ramos_id6.jpg" alt="id 6" style="width: 50%;">first_name "Tracey" last_name "Ramos" id 6
 
 </div>
 
