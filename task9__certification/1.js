@@ -55,3 +55,18 @@ getUserData(3).then((userData) => console.log(userData));
 // Или использовать async/await в контексте другой асинхронной функции:
 
 
+
+async function getUserData(id) {
+  const response = await fetch(`https://reqres.in/api/users/${id}`);
+  if (response.ok) {
+    const respData = await response.json();
+    return respData.data;
+  }
+  throw new Error(await response.text());
+}
+
+getUserData(3)
+  .then(result => console.log(result))
+  .catch(err => console.log(`Ошибка: ${err.message}`)); // тут уже ошибка
+
+
