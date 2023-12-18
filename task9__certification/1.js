@@ -54,7 +54,7 @@ getUserData(3).then((userData) => console.log(userData));
 //  getUserData(3).then(userData => console.log(userData));
 // Или использовать async/await в контексте другой асинхронной функции:
 
-
+// ОПТИМАЛЬНОЕ РЕШЕНИЕ!!!
 
 async function getUserData(id) {
   const response = await fetch(`https://reqres.in/api/users/${id}`);
